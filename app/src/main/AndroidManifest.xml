@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex11024">
         <activity
+            android:name=".CreditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddQuestionActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Ex11024" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
